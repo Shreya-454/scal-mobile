@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+.bg1{
+    background-image: url(../images/herobgimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cross .line1 {
+    transform: rotate(50deg) translate(17px, 14px);
+}
+
+.cross .line2 {
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.cross .line3 {
+    transform: rotate(-50deg) translateY(-50%);
+}
+
+.show {
+    left: 0;
+}

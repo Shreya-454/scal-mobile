@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="./public/assets/css/scale.css">
+</head>
+
+<body class="bg-black">
+  <header class="bg1 flex flex-col min-h-screen relative z-10 overflow-hidden pb-16">
+  <nav class="py-2 border-b border-[#2c2e31]">
+    <div class="container max-w-[1140px] px-3 mx-auto ">
+      <div class="flex justify-between items-center">
+        <a href=""><img src="./public/assets/images/logo.png" alt="logo"></a>
+        <ul
+          class="flex flex-col justify-center lg:flex-row items-center fixed top-0 lg:static -left-full gap-5 lg:pl-12 max-lg:bg-purple-pink  lg:bg-transparent duration-300 w-full h-full sm:w-2/4 lg:w-full bg-black  z-[3]"
+          id="navbar">
+          <li><a href="" onclick="openNav()"
+              class="text-[#b4b3b3] font-rubik hover:text-white transition-all duration-300 text-base font-normal leading-[160%]">Home</a>
+          </li>
+          <li><a href="" onclick="openNav()"
+              class="text-[#b4b3b3] font-rubik hover:text-white transition-all duration-300 text-base font-normal leading-[160%]">About
+              Us</a></li>
+          <li><a href="" onclick="openNav()"
+              class="text-[#b4b3b3] font-rubik  hover:text-white transition-all duration-300 text-base font-normal leading-[160%]">Why
+              Choose Us</a></li>
+          <li><button
+            class="text-white font-rubik bg-bluegreen  block lg:hidden outline transition-all duration-500  outline-transparent hover:bg-none outline-[3px] whitespace-nowrap hover:outline-blue-400   px-8 py-[14px] rounded-[100px] text-base font-normal leading-[160%]">Contact
+            Us</button></li>
+        </ul>
+        <button
+          class="text-white font-rubik hidden lg:block bg-bluegreen outline transition-all duration-500  outline-transparent hover:bg-none outline-[3px] whitespace-nowrap hover:outline-blue-400   px-8 py-[14px] rounded-[100px] text-base font-normal leading-[160%]">Contact
+          Us</button>
+        <div id="menubtn-icon" onclick="openNav()" class=" lg:hidden  pe-3 pt-1 relative z-[5]">
+          <div class="line1 w-[30px] min-h-[3px] bg-white transition-all duration-300"></div>
+          <div class="line2 w-[30px] min-h-[3px] bg-white transition-all duration-300 my-2"></div>
+          <div class="line3 w-[30px] min-h-[3px] bg-white transition-all duration-300"></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="flex justify-center items-center py-20 relative ">
+    <div class="container max-w-[1140px] px-3 mx-auto ">
+      <div class="flex justify-center items-center flex-col">
+        <h1 class="text-white font-rubik text-5xl max-w-[813px] font-medium text-center leading-[112%]">Redefining the
+          Smartphone Re-Commerce Industry Since 2010</h1>
+        <p class="text-white font-rubik text-xl text-center max-w-[671px] font-normal pt-3">Serving customers across
+          North America, South America, Europe, Australia, and Asia</p>
+        <img src="./public/assets/images/map.png" alt="map" class="w-full pt-16">
+      </div>
+    </div>
+  </section>
+  <div class="absolute top-[-25px] right-[-25px] z-[-1]">
+    <div class="w-[384px] h-[384px] rounded-[384px] bg-blueellipse blur-[245px]"></div>
+  </div>
+ 
+
+</header>
+  <!-- section-2 -->
+  <section class="relative z-[1]">
+    <div class="absolute top-[-60%] left-[-10%] z-[-1]">
+      <div class="w-[384px] h-[384px] rounded-[384px] bg-bluesec blur-[224px] opacity-[0.8]"></div>
+    </div>
+    <div class="max-w-[1140px] mx-auto px-3">
+      <div class="flex flex-row flex-wrap -mx-3 items-center">
+        <div class="w-1/2 px-3">
+          <img src="./public/assets/images/2ndimg1.png" alt="mobile1" class="w-full">
+        </div>
+        <div class="w-1/2 px-3 flex justify-center">
+          <p
+            class="text-white relative font-rubik max-w-[405px] after:bottom--[5px] after:w-[5px] after:bg-bluegreen after:absolute after:left-[-23px] after:top-[5px] after:rounded-[7px]">
+            SCal Mobile marked its presence in <span class="te">2010</span>. Since then, we have been working tirelessly
+            around the idea of providing
+            customers with premium devices and services that change the norm in the smartphone re-commerce industry,
+            moving into a
+            new, more efficient era.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="module" src="/main.js"></script>
+  <script src="/public/assets/js/scal.js"></script>
+</body>
+
+</html>
